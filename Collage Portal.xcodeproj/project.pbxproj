@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F06CA35023BE592E0035E4C7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06CA34F23BE592E0035E4C7 /* AppDelegate.swift */; };
+		F06CA35223BE592E0035E4C7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06CA35123BE592E0035E4C7 /* SceneDelegate.swift */; };
+		F06CA35423BE592E0035E4C7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06CA35323BE592E0035E4C7 /* ViewController.swift */; };
+		F06CA35723BE592E0035E4C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F06CA35523BE592E0035E4C7 /* Main.storyboard */; };
+		F06CA35A23BE592E0035E4C7 /* Collage_Portal.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F06CA35823BE592E0035E4C7 /* Collage_Portal.xcdatamodeld */; };
+		F06CA35C23BE59310035E4C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F06CA35B23BE59310035E4C7 /* Assets.xcassets */; };
+		F06CA35F23BE59310035E4C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F06CA35D23BE59310035E4C7 /* LaunchScreen.storyboard */; };
+		F06CA36A23BE59320035E4C7 /* Collage_PortalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06CA36923BE59320035E4C7 /* Collage_PortalTests.swift */; };
+		F06CA37523BE59320035E4C7 /* Collage_PortalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06CA37423BE59320035E4C7 /* Collage_PortalUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F06CA36623BE59320035E4C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F06CA34423BE592E0035E4C7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F06CA34B23BE592E0035E4C7;
+			remoteInfo = "Collage Portal";
+		};
+		F06CA37123BE59320035E4C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F06CA34423BE592E0035E4C7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F06CA34B23BE592E0035E4C7;
+			remoteInfo = "Collage Portal";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F06CA34C23BE592E0035E4C7 /* Collage Portal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Collage Portal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F06CA34F23BE592E0035E4C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F06CA35123BE592E0035E4C7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F06CA35323BE592E0035E4C7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F06CA35623BE592E0035E4C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F06CA35923BE592E0035E4C7 /* Collage_Portal.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Collage_Portal.xcdatamodel; sourceTree = "<group>"; };
+		F06CA35B23BE59310035E4C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F06CA35E23BE59310035E4C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F06CA36023BE59310035E4C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F06CA36523BE59320035E4C7 /* Collage PortalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Collage PortalTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F06CA36923BE59320035E4C7 /* Collage_PortalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Collage_PortalTests.swift; sourceTree = "<group>"; };
+		F06CA36B23BE59320035E4C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F06CA37023BE59320035E4C7 /* Collage PortalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Collage PortalUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F06CA37423BE59320035E4C7 /* Collage_PortalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Collage_PortalUITests.swift; sourceTree = "<group>"; };
+		F06CA37623BE59320035E4C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F06CA34923BE592E0035E4C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F06CA36223BE59320035E4C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F06CA36D23BE59320035E4C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F06CA34323BE592E0035E4C7 = {
+			isa = PBXGroup;
+			children = (
+				F06CA34E23BE592E0035E4C7 /* Collage Portal */,
+				F06CA36823BE59320035E4C7 /* Collage PortalTests */,
+				F06CA37323BE59320035E4C7 /* Collage PortalUITests */,
+				F06CA34D23BE592E0035E4C7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F06CA34D23BE592E0035E4C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F06CA34C23BE592E0035E4C7 /* Collage Portal.app */,
+				F06CA36523BE59320035E4C7 /* Collage PortalTests.xctest */,
+				F06CA37023BE59320035E4C7 /* Collage PortalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F06CA34E23BE592E0035E4C7 /* Collage Portal */ = {
+			isa = PBXGroup;
+			children = (
+				F06CA34F23BE592E0035E4C7 /* AppDelegate.swift */,
+				F06CA35123BE592E0035E4C7 /* SceneDelegate.swift */,
+				F06CA35323BE592E0035E4C7 /* ViewController.swift */,
+				F06CA35523BE592E0035E4C7 /* Main.storyboard */,
+				F06CA35B23BE59310035E4C7 /* Assets.xcassets */,
+				F06CA35D23BE59310035E4C7 /* LaunchScreen.storyboard */,
+				F06CA36023BE59310035E4C7 /* Info.plist */,
+				F06CA35823BE592E0035E4C7 /* Collage_Portal.xcdatamodeld */,
+			);
+			path = "Collage Portal";
+			sourceTree = "<group>";
+		};
+		F06CA36823BE59320035E4C7 /* Collage PortalTests */ = {
+			isa = PBXGroup;
+			children = (
+				F06CA36923BE59320035E4C7 /* Collage_PortalTests.swift */,
+				F06CA36B23BE59320035E4C7 /* Info.plist */,
+			);
+			path = "Collage PortalTests";
+			sourceTree = "<group>";
+		};
+		F06CA37323BE59320035E4C7 /* Collage PortalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F06CA37423BE59320035E4C7 /* Collage_PortalUITests.swift */,
+				F06CA37623BE59320035E4C7 /* Info.plist */,
+			);
+			path = "Collage PortalUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F06CA34B23BE592E0035E4C7 /* Collage Portal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F06CA37923BE59320035E4C7 /* Build configuration list for PBXNativeTarget "Collage Portal" */;
+			buildPhases = (
+				F06CA34823BE592E0035E4C7 /* Sources */,
+				F06CA34923BE592E0035E4C7 /* Frameworks */,
+				F06CA34A23BE592E0035E4C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Collage Portal";
+			productName = "Collage Portal";
+			productReference = F06CA34C23BE592E0035E4C7 /* Collage Portal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F06CA36423BE59320035E4C7 /* Collage PortalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F06CA37C23BE59320035E4C7 /* Build configuration list for PBXNativeTarget "Collage PortalTests" */;
+			buildPhases = (
+				F06CA36123BE59320035E4C7 /* Sources */,
+				F06CA36223BE59320035E4C7 /* Frameworks */,
+				F06CA36323BE59320035E4C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F06CA36723BE59320035E4C7 /* PBXTargetDependency */,
+			);
+			name = "Collage PortalTests";
+			productName = "Collage PortalTests";
+			productReference = F06CA36523BE59320035E4C7 /* Collage PortalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F06CA36F23BE59320035E4C7 /* Collage PortalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F06CA37F23BE59320035E4C7 /* Build configuration list for PBXNativeTarget "Collage PortalUITests" */;
+			buildPhases = (
+				F06CA36C23BE59320035E4C7 /* Sources */,
+				F06CA36D23BE59320035E4C7 /* Frameworks */,
+				F06CA36E23BE59320035E4C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F06CA37223BE59320035E4C7 /* PBXTargetDependency */,
+			);
+			name = "Collage PortalUITests";
+			productName = "Collage PortalUITests";
+			productReference = F06CA37023BE59320035E4C7 /* Collage PortalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F06CA34423BE592E0035E4C7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Nilrajsinh Vaghela";
+				TargetAttributes = {
+					F06CA34B23BE592E0035E4C7 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					F06CA36423BE59320035E4C7 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = F06CA34B23BE592E0035E4C7;
+					};
+					F06CA36F23BE59320035E4C7 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = F06CA34B23BE592E0035E4C7;
+					};
+				};
+			};
+			buildConfigurationList = F06CA34723BE592E0035E4C7 /* Build configuration list for PBXProject "Collage Portal" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F06CA34323BE592E0035E4C7;
+			productRefGroup = F06CA34D23BE592E0035E4C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F06CA34B23BE592E0035E4C7 /* Collage Portal */,
+				F06CA36423BE59320035E4C7 /* Collage PortalTests */,
+				F06CA36F23BE59320035E4C7 /* Collage PortalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F06CA34A23BE592E0035E4C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F06CA35F23BE59310035E4C7 /* LaunchScreen.storyboard in Resources */,
+				F06CA35C23BE59310035E4C7 /* Assets.xcassets in Resources */,
+				F06CA35723BE592E0035E4C7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F06CA36323BE59320035E4C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F06CA36E23BE59320035E4C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F06CA34823BE592E0035E4C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F06CA35423BE592E0035E4C7 /* ViewController.swift in Sources */,
+				F06CA35023BE592E0035E4C7 /* AppDelegate.swift in Sources */,
+				F06CA35223BE592E0035E4C7 /* SceneDelegate.swift in Sources */,
+				F06CA35A23BE592E0035E4C7 /* Collage_Portal.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F06CA36123BE59320035E4C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F06CA36A23BE59320035E4C7 /* Collage_PortalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F06CA36C23BE59320035E4C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F06CA37523BE59320035E4C7 /* Collage_PortalUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F06CA36723BE59320035E4C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F06CA34B23BE592E0035E4C7 /* Collage Portal */;
+			targetProxy = F06CA36623BE59320035E4C7 /* PBXContainerItemProxy */;
+		};
+		F06CA37223BE59320035E4C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F06CA34B23BE592E0035E4C7 /* Collage Portal */;
+			targetProxy = F06CA37123BE59320035E4C7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F06CA35523BE592E0035E4C7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F06CA35623BE592E0035E4C7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F06CA35D23BE59310035E4C7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F06CA35E23BE59310035E4C7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F06CA37723BE59320035E4C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F06CA37823BE59320035E4C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F06CA37A23BE59320035E4C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7227VAQ96L;
+				INFOPLIST_FILE = "Collage Portal/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Tipsy.com.Collage-Portal";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F06CA37B23BE59320035E4C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7227VAQ96L;
+				INFOPLIST_FILE = "Collage Portal/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Tipsy.com.Collage-Portal";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F06CA37D23BE59320035E4C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7227VAQ96L;
+				INFOPLIST_FILE = "Collage PortalTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Tipsy.com.Collage-PortalTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Collage Portal.app/Collage Portal";
+			};
+			name = Debug;
+		};
+		F06CA37E23BE59320035E4C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7227VAQ96L;
+				INFOPLIST_FILE = "Collage PortalTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Tipsy.com.Collage-PortalTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Collage Portal.app/Collage Portal";
+			};
+			name = Release;
+		};
+		F06CA38023BE59320035E4C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7227VAQ96L;
+				INFOPLIST_FILE = "Collage PortalUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Tipsy.com.Collage-PortalUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Collage Portal";
+			};
+			name = Debug;
+		};
+		F06CA38123BE59320035E4C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7227VAQ96L;
+				INFOPLIST_FILE = "Collage PortalUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Tipsy.com.Collage-PortalUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Collage Portal";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F06CA34723BE592E0035E4C7 /* Build configuration list for PBXProject "Collage Portal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F06CA37723BE59320035E4C7 /* Debug */,
+				F06CA37823BE59320035E4C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F06CA37923BE59320035E4C7 /* Build configuration list for PBXNativeTarget "Collage Portal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F06CA37A23BE59320035E4C7 /* Debug */,
+				F06CA37B23BE59320035E4C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F06CA37C23BE59320035E4C7 /* Build configuration list for PBXNativeTarget "Collage PortalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F06CA37D23BE59320035E4C7 /* Debug */,
+				F06CA37E23BE59320035E4C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F06CA37F23BE59320035E4C7 /* Build configuration list for PBXNativeTarget "Collage PortalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F06CA38023BE59320035E4C7 /* Debug */,
+				F06CA38123BE59320035E4C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F06CA35823BE592E0035E4C7 /* Collage_Portal.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F06CA35923BE592E0035E4C7 /* Collage_Portal.xcdatamodel */,
+			);
+			currentVersion = F06CA35923BE592E0035E4C7 /* Collage_Portal.xcdatamodel */;
+			path = Collage_Portal.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F06CA34423BE592E0035E4C7 /* Project object */;
+}
